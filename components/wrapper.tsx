@@ -44,7 +44,7 @@ export default function Wrapper({ children }: { children: React.ReactNode }) {
           href="/"
           className={`flex flex-col justify-center items-center font-bold font-unbounded`}
         >
-          <div className="flex flex-col justify-center pb-1 px-3 items-center bg-white rounded-md">
+          <div className="flex flex-col justify-center pb-1 px-3 ml-[-17px] items-center bg-white rounded-md">
 
             <Image src={inSPIRELOGOSVG} height={45} alt="inSPIRE logo" />
             <p className="w-fit text-black text-md mt-[-2px] leading-none ">inspire</p>

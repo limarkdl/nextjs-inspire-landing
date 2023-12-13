@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="public/first-page-inspire-website.png" alt="Next.js and TypeScript">
-  <img src="public/second-page-inspire-website.png" alt="Next.js and TypeScript">
-  <img src="public/third-page-inspire-website.png" alt="Next.js and TypeScript">
+  <img src="public/first-page.png" alt="Next.js and TypeScript">
+  <img src="public/second-page.png" alt="Next.js and TypeScript">
+  <img src="public/third-page.png" alt="Next.js and TypeScript">
 </p>
 
 <p align="center">
