@@ -20,7 +20,7 @@ export default function Home() {
             <p className="pb-6 font-medium font-unbounded">
               Embark on a transformative journey with our inSPIRE Mixed Reality / Augmented Reality Development Course. 
               Unleash your creativity and step into the future of technology. Dive into hands-on projects, 
-              guided by industry experts, and master the art of crafting immersive experiences. Whether you're a budding 
+              guided by industry experts, and master the art of crafting immersive experiences. Whether you&apos;re a budding 
               developer or a visionary artist, our course empowers you to reshape the digital world. Join us and ignite your 
               passion for innovation. Your path to becoming an AR/MR maestro starts here. Turn your dreams into dynamic realities with inSPIRE.
             </p>
@@ -33,7 +33,7 @@ export default function Home() {
                   rel="noreferrer"
                   className="pb-1 dark:text-zinc-800 text-zinc-100 font-unbounded"
                 >
-                  Let's start
+                  Let&apos;s start
                 </a>{" "}
               </Button>
             </div>

@@ -19,11 +19,11 @@ export default function Home() {
             </span>
             <p className="pb-6 font-medium font-unbounded">
             Being a skilled VR/MR developer opens a world of opportunities. 
-            You'll be at the forefront of tech innovation, creating immersive experiences 
+            You&apos;ll be at the forefront of tech innovation, creating immersive experiences 
             that redefine reality. This field offers lucrative career prospects in gaming, 
             education, and healthcare. Your expertise in VR/MR can lead to roles in top tech 
             companies, where you can influence the future of entertainment and learning. With 
-            the ability to blend creativity and technology, you'll develop solutions that transform 
+            the ability to blend creativity and technology, you&apos;ll develop solutions that transform 
             how people interact with the digital world. This rapidly growing industry not only promises
              professional growth but also the chance to make a significant impact on various sectors 
              through cutting-edge virtual and mixed reality technologies.
