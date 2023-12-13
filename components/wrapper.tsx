@@ -5,7 +5,9 @@ import { usePathname } from "next/navigation";
 import ThemeToggle from "./theme-toggle";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import { FaLightbulb } from "react-icons/fa6"
+import Image from "next/image";
+
+import inSPIRELOGOSVG from '@/public/images/inSPIRELOGOSVG.svg'
 
 const SECTION_DATA = [
   { label: 1, href: "/", isFirst: true, isLast: false },
@@ -40,17 +42,13 @@ export default function Wrapper({ children }: { children: React.ReactNode }) {
       <div className="flex w-full items-center justify-between">
         <Link
           href="/"
-          className={`flex items-center font-black text-transparent text-2xl bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600 dark: font-unbounded italic`}
+          className={`flex flex-col justify-center items-center font-bold font-unbounded`}
         >
-          inSPIRE{" "}
-          <span
-            className={`text-sm font-bold  inline-block rounded-3xl p-2 text-black`}
-          >
-            <div className="p-1 bg-orange-500 rounded-md">
-              <FaLightbulb className="text-white" size="16"/>
-            </div>
+          <div className="flex flex-col justify-center pb-1 px-3 items-center bg-white rounded-md">
 
-          </span>
+            <Image src={inSPIRELOGOSVG} height={45} alt="inSPIRE logo" />
+            <p className="w-fit text-black text-md mt-[-2px] leading-none ">inspire</p>
+          </div>
         </Link>
 
         <ThemeToggle />

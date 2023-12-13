@@ -1,6 +1,6 @@
 {
-  "name": "kaminari",
-  "version": "0.1.0",
+  "name": "inspire-nextjs",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
